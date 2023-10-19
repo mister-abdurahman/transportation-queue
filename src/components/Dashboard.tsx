@@ -72,8 +72,8 @@ export default function Dashboard() {
   }
 
   return (
-    <div className="min-h-[95.9vh] flex md:flex-col lg:flex-row justify-between md:items-center lg:items-stretch md:gap-8 p-24">
-      <div>
+    <div className="min-h-[95.9vh] flex flex-col lg:flex-row lg:justify-between items-center lg:items-stretch gap-8 p-24 lg:text-base text-xs">
+      <div className="lg:ml-0 ml-5">
         <table border={1}>
           <thead className="bg-green-400">
             <tr>
